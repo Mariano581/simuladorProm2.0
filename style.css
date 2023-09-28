@@ -1,0 +1,67 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eadbdbd5; /* Color de fondo */
+}
+
+/* Estilos del encabezado */
+header {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffff; /* Fondo del contenedor de la pregunta */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+}
+
+/* Estilos para el enlace "Recargar Página" */
+a {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FFADAD;
+    color: #2e2481;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Eliminar subrayado */
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #2e2481; /* Cambiar el color de fondo al pasar el mouse */
+    color: #C7FB93;
+}
+
+/* Estilos del botón "Buscar alumno por apellido" */
+#clickMe {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FFADAD;
+    color: #2e2481;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+#clickMe:hover {
+    background-color: #2e2481; /* Cambiar el color de fondo al pasar el mouse */
+    color: #C7FB93;
+}
+
+/* Estilos para el encabezado "Hola Profe!" */
+h2 {
+    font-size: 32px; /* Tamaño de fuente más grande */
+    margin-top: 20px;
+    color: #2e2481; /* Cambiar el color del texto */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+}
